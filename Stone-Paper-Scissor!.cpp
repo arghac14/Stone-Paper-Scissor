@@ -76,6 +76,7 @@ int game(){
     }
     else if(w==2){
         printf("\nComputer wins!");
+	cs=cs+1;
     }
     else{
         printf("\nTie!");
