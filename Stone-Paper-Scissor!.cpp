@@ -8,7 +8,7 @@ char name[10];
 int p=0;
 
 int game(){
-    int pch,cch,ch,w,p=0,m;
+    int pch,cch,ch,w,p=0,m,cs=0;
     char d,e1,e2,e3;
     
    while(1){
@@ -82,6 +82,7 @@ int game(){
     }
     Sleep(1000);
     printf("\n\nYour current score is %d",p);
+    printf("\n\nComputer's current score is %d\n",cs);
     Sleep(1500);
     scanf("%c",&e3);
     system("cls");
