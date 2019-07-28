@@ -89,7 +89,7 @@ int game(){
     system("cls");
     system("color f5");
     printf("______________________Welcome to STONE-PAPER-SCISSOR game!_____________________\n\n");
-   	printf("\n\nDo you want to play another time?\n\nIF YES THEN PRESS : 'y' or 'Y'.\n\nIF YES THEN PRESS : 'n' or 'N' + Enter.\n");
+   	printf("\n\nDo you want to play another time?\n\nIF YES THEN PRESS : 'y' or 'Y'.\n\nIF NO THEN PRESS : 'n' or 'N' + Enter.\n");
 	d=getche();
 	if(d=='y'||d=='Y'){
 	//scanf("%c",&e1);
